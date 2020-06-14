@@ -1,0 +1,1082 @@
+{
+  "rdf:RDF": {
+    "$": {
+      "xml:base": "http://www.gutenberg.org/",
+      "xmlns:dcterms": "http://purl.org/dc/terms/",
+      "xmlns:dcam": "http://purl.org/dc/dcam/",
+      "xmlns:marcrel": "http://id.loc.gov/vocabulary/relators/",
+      "xmlns:rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xmlns:cc": "http://web.resource.org/cc/",
+      "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xmlns:pgterms": "http://www.gutenberg.org/2009/pgterms/"
+    },
+    "pgterms:ebook": [
+      {
+        "$": { "rdf:about": "ebooks/12816" },
+        "dcterms:hasFormat": [
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/12816.epub.images"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nd32191af887d4363ab3d1a3c0239b308"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/epub+zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "594380",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:27.146340",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/12816/12816-8.zip"
+                },
+                "dcterms:extent": [
+                  {
+                    "_": "90798",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2004-07-04T16:54:44",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N3af1ab5fbce94fb48a80c18e751eefd6"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "application/zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N11bd9faaac6645188f1f1bdac3035ecf"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=iso-8859-1",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/12816/12816-h.zip"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Ndff0978b8f074b48bdce9541ad25e3e2"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "application/zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N2f78df7aa01e4bec938521a13655321c"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/html; charset=iso-8859-1",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2004-07-04T16:54:46",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "588288",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/cache/epub/12816/pg12816.cover.medium.jpg"
+                },
+                "dcterms:extent": [
+                  {
+                    "_": "12170",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:28.781277",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N24284260e4fd46b9b13cea02fcb8cb34"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "image/jpeg",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/12816/12816-h/12816-h.htm"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N2140cd7d524f4f0dbc822ea4ba14fe40"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/html; charset=iso-8859-1",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "251351",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2004-07-04T16:52:24",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/12816/12816-8.txt"
+                },
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "235510",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2004-07-04T16:52:24",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nc4a69b6f7c604a5b8badf47f64a64f10"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=iso-8859-1",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/12816/12816.zip"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nfa98bec14172435da865208404aad420"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=us-ascii",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nef749121e9c44c56bacdf172e94650db"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "90705",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2004-07-04T16:54:44",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/12816.kindle.noimages"
+                },
+                "dcterms:extent": [
+                  {
+                    "_": "477167",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:28.718276",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nb8bb8502cc104aaf9f759a4a9c40f765"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/x-mobipocket-ebook",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/12816/12816.txt"
+                },
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "235502",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2004-07-04T16:52:24",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N1a085071f47247ab8ab9f0b7a11fb420"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=us-ascii",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/12816.txt.utf-8"
+                },
+                "dcterms:extent": [
+                  {
+                    "_": "235613",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N762df66757704661a438ef02bff1aa3e"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:26.657333",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/cache/epub/12816/pg12816.cover.small.jpg"
+                },
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:28.751279",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nf68c4d6ace41428ea5dee5a7d448fab2"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "image/jpeg",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "3405",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/12816.rdf"
+                },
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:28.888273",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "16837",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nc07178f8223c4e1599ad486ad0a8e8ba"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/rdf+xml",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/12816.kindle.images"
+                },
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:28.126320",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N81e22a0097bd4d55918fee7eef8016d5"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/x-mobipocket-ebook",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "1436636",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/12816.epub.noimages"
+                },
+                "dcterms:extent": [
+                  {
+                    "_": "114367",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  { "$": { "rdf:resource": "ebooks/12816" } }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N029f3e5d30ed4f72b7852f7fe3ded90e"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/epub+zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2020-06-07T03:41:27.340299",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "marcrel:trl": [
+          {
+            "pgterms:agent": [
+              {
+                "$": { "rdf:about": "2009/agents/9437" },
+                "pgterms:deathdate": [
+                  {
+                    "_": "1930",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "pgterms:alias": ["Ives, George B."],
+                "pgterms:name": ["Ives, George Burnham"],
+                "pgterms:birthdate": [
+                  {
+                    "_": "1856",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "pgterms:webpage": [
+                  {
+                    "$": {
+                      "rdf:resource": "https://en.wikipedia.org/wiki/George_Burnham_Ives"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "dcterms:issued": [
+          {
+            "_": "2004-07-04",
+            "$": { "rdf:datatype": "http://www.w3.org/2001/XMLSchema#date" }
+          }
+        ],
+        "dcterms:type": [
+          {
+            "rdf:Description": [
+              {
+                "$": { "rdf:nodeID": "Nf63f50bd158749aea1e79ca243abd217" },
+                "dcam:memberOf": [
+                  {
+                    "$": { "rdf:resource": "http://purl.org/dc/terms/DCMIType" }
+                  }
+                ],
+                "rdf:value": ["Text"]
+              }
+            ]
+          }
+        ],
+        "marcrel:ill": [
+          {
+            "pgterms:agent": [
+              {
+                "$": { "rdf:about": "2009/agents/4902" },
+                "pgterms:webpage": [
+                  {
+                    "$": {
+                      "rdf:resource": "https://fr.wikipedia.org/wiki/Edmond-Adolphe_Rudaux"
+                    }
+                  }
+                ],
+                "pgterms:birthdate": [
+                  {
+                    "_": "1840",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "pgterms:name": ["Rudaux, Edmond Adolphe"],
+                "pgterms:deathdate": [
+                  {
+                    "_": "1908",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "dcterms:license": [{ "$": { "rdf:resource": "license" } }],
+        "dcterms:description": [
+          "See also PG#21993 tr. by J.M. and E. Sedgwick"
+        ],
+        "dcterms:title": ["The Devil's Pool"],
+        "dcterms:rights": ["Public domain in the USA."],
+        "dcterms:creator": [
+          {
+            "pgterms:agent": [
+              {
+                "$": { "rdf:about": "2009/agents/851" },
+                "pgterms:alias": [
+                  "Dudevant, Amandine-Aurore-Lucile",
+                  "Dupin, Armandine Aurore Lucille",
+                  "Dupin, Amandine-Aurore-Lucile"
+                ],
+                "pgterms:webpage": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://en.wikipedia.org/wiki/George_Sand"
+                    }
+                  },
+                  {
+                    "$": {
+                      "rdf:resource": "https://fr.wikipedia.org/wiki/George_Sand"
+                    }
+                  }
+                ],
+                "pgterms:name": ["Sand, George"],
+                "pgterms:deathdate": [
+                  {
+                    "_": "1876",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "pgterms:birthdate": [
+                  {
+                    "_": "1804",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pgterms:downloads": [
+          {
+            "_": "128",
+            "$": { "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer" }
+          }
+        ],
+        "dcterms:subject": [
+          {
+            "rdf:Description": [
+              {
+                "$": { "rdf:nodeID": "Nbfe3af26ab9a4eb99b24c20d7c89eea9" },
+                "dcam:memberOf": [
+                  { "$": { "rdf:resource": "http://purl.org/dc/terms/LCSH" } }
+                ],
+                "rdf:value": ["Pastoral fiction, French"]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": { "rdf:nodeID": "N4e3aee5710844b3bb5c45b8992698d92" },
+                "dcam:memberOf": [
+                  { "$": { "rdf:resource": "http://purl.org/dc/terms/LCC" } }
+                ],
+                "rdf:value": ["PQ"]
+              }
+            ]
+          }
+        ],
+        "dcterms:publisher": ["Project Gutenberg"],
+        "dcterms:language": [
+          {
+            "rdf:Description": [
+              {
+                "$": { "rdf:nodeID": "Na9e0b80246a5443d9c9cee8ab93c8da1" },
+                "rdf:value": [
+                  {
+                    "_": "en",
+                    "$": { "rdf:datatype": "http://purl.org/dc/terms/RFC4646" }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pgterms:bookshelf": [
+          {
+            "rdf:Description": [
+              {
+                "$": { "rdf:nodeID": "N15ccb5286a904a43a9b7f9f2367dbfe7" },
+                "dcam:memberOf": [
+                  { "$": { "rdf:resource": "2009/pgterms/Bookshelf" } }
+                ],
+                "rdf:value": ["Harvard Classics"]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cc:Work": [
+      {
+        "$": { "rdf:about": "" },
+        "cc:license": [
+          {
+            "$": {
+              "rdf:resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+          }
+        ],
+        "rdfs:comment": [
+          "Archives containing the RDF files for *all* our books can be downloaded at\r\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog"
+        ]
+      }
+    ],
+    "rdf:Description": [
+      {
+        "$": { "rdf:about": "http://en.wikipedia.org/wiki/George_Sand" },
+        "dcterms:description": ["en.wikipedia"]
+      },
+      {
+        "$": {
+          "rdf:about": "https://fr.wikipedia.org/wiki/Edmond-Adolphe_Rudaux"
+        },
+        "dcterms:description": ["fr.wikipedia"]
+      },
+      {
+        "$": { "rdf:about": "https://fr.wikipedia.org/wiki/George_Sand" },
+        "dcterms:description": ["fr.wikipedia"]
+      },
+      {
+        "$": {
+          "rdf:about": "https://en.wikipedia.org/wiki/George_Burnham_Ives"
+        },
+        "dcterms:description": ["en.wikipedia"]
+      }
+    ]
+  }
+}

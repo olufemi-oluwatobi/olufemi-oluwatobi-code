@@ -1,0 +1,36 @@
+{
+  "name": "bibliu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node index.js ",
+    "create-migration": "npx sequelize-cli migration:generate --name",
+    "run-migration": "npx sequelize-cli db:migrate",
+    "undo-migration": "npx sequelize-cli db:migrate:undo",
+    "test": "mocha test.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "assert": "^2.0.0",
+    "async": "^3.2.0",
+    "chai": "^4.2.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "mocha": "^8.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.21.11",
+    "sequelize-cli": "^5.4.0",
+    "sequelize-helper": "^0.0.1",
+    "sequelize-test-helpers": "^1.2.2",
+    "sinon": "^9.0.2",
+    "uuid": "^8.1.0",
+    "xml2js": "^0.4.23"
+  }
+}
